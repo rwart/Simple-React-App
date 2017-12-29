@@ -1,0 +1,46 @@
+body {
+  background: #55aeed;
+  font-family: sans-serif;
+  font-size: 12px;
+}
+
+.app {
+  background: #CCC;
+  margin: 0 auto;
+  max-width: 300px;
+  padding: 15px 5px 5px 5px;
+}
+
+.contactForm {
+  margin-top: 10px;
+}
+.contactForm input,
+.contactForm button {
+  box-sizing: border-box;
+  display: block;
+  margin: 10px auto 0 auto;
+  width: 90%;
+}
+
+.contactList {
+  margin: 20px auto;
+  padding: 0;
+  width: 90%;
+}
+
+.contactItem {
+  background: #ecece6;
+  border-radius: 7px;
+  margin: 10px 0;
+  padding: 10px;
+  text-align: center;
+}
+
+.contactImage {
+  max-width: 40%;
+}
+
+.contactLabel,
+.contactEmail {
+  margin: 5px 0;
+}

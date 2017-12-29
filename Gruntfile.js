@@ -33,11 +33,11 @@ module.exports = function (grunt) {
       dist: {
           files: [{
               expand: true,
-              cwd: 'src/components',
-              src: ['*.jsx', '*.es6', '*.babel'],
-              dest: 'src/components',
+              cwd: 'src',
+              src: ['**/*.jsx', '**/*.es6', '**/*.babel'],
+              dest: 'dest',
               ext: '.js',
-            },],
+            }, ],
         },
     },
   });

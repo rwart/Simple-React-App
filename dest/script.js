@@ -1,2 +1,1 @@
-var app = React.createElement(App, null);
-ReactDOM.render(app, document.getElementById('app'));
+ReactDOM.render(React.createElement(App, null), document.getElementById('app'));
